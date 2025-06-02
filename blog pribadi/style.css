@@ -1,0 +1,54 @@
+body{
+  background-image: url(batik.jpg);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+}
+.kiri{
+  background-color: rgba(255, 255, 255, 0.89);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.kiri img {
+  width: 100px;
+}
+.data_kiri{
+  background-color: rgb(211, 211, 211);
+  padding: 2px 15px;
+  border-radius: 5px;
+}
+.kanan{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+.tengah{
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+.box{
+  background-color: rgba(255, 255, 255, 0.89);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contac{
+  width: 20px;
+  padding: 3px;
+  border-radius: 4px;
+}
+.footer{
+  background-color: rgba(0, 2, 116, 0.904);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+}
